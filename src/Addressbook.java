@@ -3,6 +3,8 @@ public class Addressbook {
     public static void main(String[] args) {
         System.out.println("Welcome to Address book");
         persondetails();
+        contactNewperson();
+        editContactDetails();
     }
     public static void persondetails()
     {
@@ -50,6 +52,9 @@ public class Addressbook {
         String Email_Id=c.readLine();
         System.out.println("Your Email_id is :" +Email_Id);
     }
-    )
+    {
+        System.out.println("After Editing the existed contact the list of details are given below");
+        contactNewperson();
+    }
 }
 
