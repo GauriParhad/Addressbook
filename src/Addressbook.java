@@ -1,6 +1,4 @@
 public class Addressbook {
-    import java.util.Scanner;
-    import java.io.Console;
 
     public static void main(String[] args) {
         System.out.println("Welcome to Address book");
