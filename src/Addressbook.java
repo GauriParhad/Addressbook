@@ -3,6 +3,8 @@ public class Addressbook {
     public static void main(String[] args) {
         System.out.println("Welcome to Address book");
         persondetails();
+        contactNewperson();
+        editContactDetails();
     }
     public static void persondetails()
     {
@@ -50,6 +52,23 @@ public class Addressbook {
         String Email_Id=c.readLine();
         System.out.println("Your Email_id is :" +Email_Id);
     }
-    )
+    public static void editContactDetails()
+    {
+        System.out.println("After Editing the existed contact the list of details are given below");
+        contactNewperson();
+    }
+    public static void clearconsole()
+    {
+        final String name_person =System.getProperty("name_person.name");
+        if (name_person.contains(Windows""))
+        {
+            Runtime.getRuntime().exec("cls");
+        }
+    }
+    catch (final Exception e)
+    {
+        e.printStackTrace();
+    }
+}
 }
 
